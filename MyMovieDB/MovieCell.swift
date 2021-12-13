@@ -31,7 +31,9 @@ struct MovieCell: View {
                             .lineLimit(1)
                     }
                     Spacer()
-                    Text("Note")
+                    CircleProgressBar(progress: 5.5)
+                        .frame(width: 45, height: 45)
+                        .padding(2.5)
                 }
                 Text("Descriptif")
                     .font(.callout)
