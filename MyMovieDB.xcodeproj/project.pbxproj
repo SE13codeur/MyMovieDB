@@ -14,6 +14,7 @@
 		1858809A2753D18A00F3F57E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185880992753D18A00F3F57E /* MovieCell.swift */; };
 		1858809E2753D74800F3F57E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 1858809D2753D74800F3F57E /* Kingfisher */; };
 		186B1B4B27670C9500AC340B /* CircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B1B4A27670C9500AC340B /* CircleProgressBar.swift */; };
+		186B1B4E27685B3400AC340B /* ActorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B1B4D27685B3400AC340B /* ActorCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		185880922752618100F3F57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185880992753D18A00F3F57E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		186B1B4A27670C9500AC340B /* CircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBar.swift; sourceTree = "<group>"; };
+		186B1B4D27685B3400AC340B /* ActorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				185880922752618100F3F57E /* Info.plist */,
 				1858808F2752618100F3F57E /* Preview Content */,
 				185880992753D18A00F3F57E /* MovieCell.swift */,
+				186B1B4D27685B3400AC340B /* ActorCell.swift */,
 				186B1B4A27670C9500AC340B /* CircleProgressBar.swift */,
 			);
 			path = MyMovieDB;
@@ -155,6 +158,7 @@
 				1858808C2752617600F3F57E /* ContentView.swift in Sources */,
 				1858808A2752617600F3F57E /* MyMovieDBApp.swift in Sources */,
 				186B1B4B27670C9500AC340B /* CircleProgressBar.swift in Sources */,
+				186B1B4E27685B3400AC340B /* ActorCell.swift in Sources */,
 				1858809A2753D18A00F3F57E /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
