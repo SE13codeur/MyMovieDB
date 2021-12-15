@@ -24,15 +24,13 @@ struct ActorCell: View {
             Text(name)
                 .font(.footnote)
                 .fontWeight(.semibold)
-                .foregroundColor(.white)
-
             Text(characterName)
                 .font(.caption2)
                 .foregroundColor(Color.white.opacity(0.5))
         }
-        .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+        .fixedSize(horizontal: false, vertical: true)
         .padding(4)
-        foregroundColor(.white)
+        .foregroundColor(.white)
     }
 }
 

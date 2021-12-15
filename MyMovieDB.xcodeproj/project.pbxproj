@@ -15,6 +15,8 @@
 		1858809E2753D74800F3F57E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 1858809D2753D74800F3F57E /* Kingfisher */; };
 		186B1B4B27670C9500AC340B /* CircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B1B4A27670C9500AC340B /* CircleProgressBar.swift */; };
 		186B1B4E27685B3400AC340B /* ActorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B1B4D27685B3400AC340B /* ActorCell.swift */; };
+		186B1B512769AA8400AC340B /* SeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B1B502769AA8400AC340B /* SeasonView.swift */; };
+		186B1B542769B2BC00AC340B /* MovieDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B1B532769B2BC00AC340B /* MovieDetailHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		185880992753D18A00F3F57E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		186B1B4A27670C9500AC340B /* CircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBar.swift; sourceTree = "<group>"; };
 		186B1B4D27685B3400AC340B /* ActorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorCell.swift; sourceTree = "<group>"; };
+		186B1B502769AA8400AC340B /* SeasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonView.swift; sourceTree = "<group>"; };
+		186B1B532769B2BC00AC340B /* MovieDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				1858808F2752618100F3F57E /* Preview Content */,
 				185880992753D18A00F3F57E /* MovieCell.swift */,
 				186B1B4D27685B3400AC340B /* ActorCell.swift */,
+				186B1B502769AA8400AC340B /* SeasonView.swift */,
+				186B1B532769B2BC00AC340B /* MovieDetailHeaderView.swift */,
 				186B1B4A27670C9500AC340B /* CircleProgressBar.swift */,
 			);
 			path = MyMovieDB;
@@ -157,7 +163,9 @@
 			files = (
 				1858808C2752617600F3F57E /* ContentView.swift in Sources */,
 				1858808A2752617600F3F57E /* MyMovieDBApp.swift in Sources */,
+				186B1B542769B2BC00AC340B /* MovieDetailHeaderView.swift in Sources */,
 				186B1B4B27670C9500AC340B /* CircleProgressBar.swift in Sources */,
+				186B1B512769AA8400AC340B /* SeasonView.swift in Sources */,
 				186B1B4E27685B3400AC340B /* ActorCell.swift in Sources */,
 				1858809A2753D18A00F3F57E /* MovieCell.swift in Sources */,
 			);
