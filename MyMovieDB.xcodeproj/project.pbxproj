@@ -17,6 +17,7 @@
 		186B1B4E27685B3400AC340B /* ActorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B1B4D27685B3400AC340B /* ActorCell.swift */; };
 		186B1B512769AA8400AC340B /* SeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B1B502769AA8400AC340B /* SeasonView.swift */; };
 		186B1B542769B2BC00AC340B /* MovieDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B1B532769B2BC00AC340B /* MovieDetailHeaderView.swift */; };
+		186B1B57276DD95C00AC340B /* MovieCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B1B56276DD95C00AC340B /* MovieCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		186B1B4D27685B3400AC340B /* ActorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorCell.swift; sourceTree = "<group>"; };
 		186B1B502769AA8400AC340B /* SeasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonView.swift; sourceTree = "<group>"; };
 		186B1B532769B2BC00AC340B /* MovieDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailHeaderView.swift; sourceTree = "<group>"; };
+		186B1B56276DD95C00AC340B /* MovieCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				186B1B4D27685B3400AC340B /* ActorCell.swift */,
 				186B1B502769AA8400AC340B /* SeasonView.swift */,
 				186B1B532769B2BC00AC340B /* MovieDetailHeaderView.swift */,
+				186B1B56276DD95C00AC340B /* MovieCellViewModel.swift */,
 				186B1B4A27670C9500AC340B /* CircleProgressBar.swift */,
 			);
 			path = MyMovieDB;
@@ -168,6 +171,7 @@
 				186B1B512769AA8400AC340B /* SeasonView.swift in Sources */,
 				186B1B4E27685B3400AC340B /* ActorCell.swift in Sources */,
 				1858809A2753D18A00F3F57E /* MovieCell.swift in Sources */,
+				186B1B57276DD95C00AC340B /* MovieCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
