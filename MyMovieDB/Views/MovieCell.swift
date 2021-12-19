@@ -10,12 +10,12 @@ import Kingfisher
 
 struct MovieCell: View {
     
-    let viewModel: MovieCellViewModel
+    let movieModel: MovieCellViewModel
     
     var body: some View {
         
         HStack {
-            KFImage(viewModel.imageURL)
+            KFImage(movieModel.imageURL)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 100, height: 150)
@@ -24,20 +24,20 @@ struct MovieCell: View {
             VStack(alignment: .leading) {
                 HStack {
                     VStack(alignment: .leading, spacing: 8.1) {
-                        Text(viewModel.title)
+                        Text(movieModel.title)
                             .font(.title2)
                             .fontWeight(.semibold)
-                        Text("\(viewModel.seasonCount) seasons" + " | " + viewModel.genres.joined(separator: " • "))
+                        Text("\(movieModel.seasonCount) seasons" + " | " + movieModel.genres.joined(separator: " • "))
                             .foregroundColor(Color.white.opacity(0.55))
                             .font(.caption)
                             .lineLimit(1)
                     }
                     Spacer()
-                    CircleProgressBar(progress: viewModel.rating)
+                    CircleProgressBar(progress: movieModel.rating)
                         .frame(width: 45, height: 45)
                         .padding(2.5)
                 }
-                Text(viewModel.description)
+                Text(movieModel.description)
                     .font(.callout)
                     .fontWeight(.light)
                     .lineLimit(4)
@@ -52,7 +52,7 @@ struct MovieCell: View {
 
 struct MovieCell_Previews: PreviewProvider {
     
-    static let viewModel = MovieCellViewModel(
+    static let movieModel = MovieCellViewModel(
         imageURL: URL(
             string:"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mpgDeLhl8HbhI03XLB7iKO6M6JE.jpg"),
         title: "Bones",
@@ -63,7 +63,7 @@ struct MovieCell_Previews: PreviewProvider {
     )
     
     static var previews: some View {
-        MovieCell(viewModel: viewModel)
+        MovieCell(movieModel: movieModel)
             .previewLayout((.sizeThatFits))
     }
 }
